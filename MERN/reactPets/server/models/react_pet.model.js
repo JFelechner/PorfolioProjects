@@ -30,5 +30,6 @@ const reactPetSchema = new mongoose.Schema({
     { timestamps: true }
 );
 
+
 const Pet = mongoose.model('Pet', reactPetSchema);
 module.exports = Pet;

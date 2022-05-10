@@ -12,7 +12,7 @@ app.use(cors())
 
 // -----> need to add routes below
 require("./server/config/config")
-// require('./server/routes/reactPets.routes')(app)
+require('./server/routes/reactPets.routes')(app)
 
 
 app.listen( port, () => console.log(`Listening on port: ${port}`) );
